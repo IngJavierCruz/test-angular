@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: auto;
+  padding: 1rem;
+
+}
+
+.main {
+  display: flex;
+  height: 500px;
+  background-color: #b2b2b2;
+
+  & .sidebar {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    background: #f2f2f2;
+  }
+}
