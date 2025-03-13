@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ServiciosComponent } from './servicios/servicios.component';
 
 const routes: Routes = [
 
@@ -10,6 +11,10 @@ const routes: Routes = [
   {
     path: "page",
     loadChildren: () => import("./modulos/page/page.module").then(x => x.PageModule)
+  },
+  {
+    path: "servicios",
+    component: ServiciosComponent
   },
   {
     path: '**',

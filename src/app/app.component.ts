@@ -20,6 +20,10 @@ export class AppComponent {
     this.route.navigate(['/auth'])
     debugger
   }
+  navigateToServicios() {
+    this.route.navigate(['/servicios'])
+    debugger
+  }
 
   navigateToPage() {
     this.route.navigate(['/page'])
